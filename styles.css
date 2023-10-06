@@ -3,14 +3,17 @@
 	justify-content: center;
 	align-items: center;
 	height: 200vh;
+	
 }
-.body {
+/* body {
 	background-color: aliceblue;
-}
+	overflow: hidden;
+	
+} */
 
 .player1 {
 	background-color: aqua;
-	height: 60%;
+	height: 50%;
 	width: 25%;
 	display: flex;
 	flex-direction: column;
@@ -20,7 +23,7 @@
 
 .player2 {
 	background-color: aquamarine;
-	height: 60%;
+	height: 50%;
 	width: 25%;
 	display: flex;
 	flex-direction: column;
@@ -65,4 +68,6 @@
 	flex-direction: column;
 	justify-content: space-around;
 	height: 20%;
+	position: relative;
+	bottom: 20%;
 }
